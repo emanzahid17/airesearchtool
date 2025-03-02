@@ -40,5 +40,5 @@ if st.button('Summarize'):
             'style_input': style_input,
             'length_input': length_input
         })
-        st.write(result.content)
+     st.write(result.content)
     
