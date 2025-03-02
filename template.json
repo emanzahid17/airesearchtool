@@ -1,0 +1,17 @@
+{
+    "name": null,
+    "input_variables": [
+        "length_input",
+        "paper_input",
+        "style_input"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "Please summarize the research paper titled \"{paper_input}\" with the following specifications:\n    Explanation Style: {style_input}\n    Explanation length: {length_input}\n1. Extract the core research question and main objectives of the study.\n2. Summarize the methodology used, including key data sources and research techniques.\n3. Highlight the major findings and their implications.\n4. Identify any limitations and suggest potential areas for further research.\n5. Provide a brief conclusion that captures the significance of the study.\n6. Maintain academic integrity while simplifying complex concepts.",
+    "template_format": "f-string",
+    "validate_template": true,
+    "_type": "prompt"
+}
