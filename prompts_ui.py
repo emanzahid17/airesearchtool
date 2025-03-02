@@ -13,7 +13,7 @@ st.header('AI Research Assistant')
 # Selection inputs with a default placeholder option
 paper_input = st.selectbox(
     "Select Research Paper Name",
-    ["Select...", "Attention is All You Need",
+    ["Attention is All You Need",
      "BERT: Pre-training of Deep Bidirectional Transformers",
      "GPT-3: Language Models are Few-Shot Learners",
      "Diffusion Models Beat GANs on Image Synthesis"]
@@ -21,12 +21,12 @@ paper_input = st.selectbox(
 
 style_input = st.selectbox(
     "Select Explanation Style",
-    ["Select...", "Beginner-friendly", "Technical", "Academic", "Professional"]
+    ["Beginner-friendly", "Technical", "Academic", "Professional"]
 )
 
 length_input = st.selectbox(
     "Select Explanation Length",
-    ["Select...", "Short (1-2 paragraphs)", "Medium (3-5 paragraphs)", "Long (6-10 paragraphs)"]
+    ["Short (1-2 paragraphs)", "Medium (3-5 paragraphs)", "Long (6-10 paragraphs)"]
 )
 
 # Load the template
