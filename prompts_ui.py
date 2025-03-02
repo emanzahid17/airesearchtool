@@ -34,13 +34,11 @@ template = load_prompt('template.json')
 
 # Only run when the button is clicked and valid selections are made
 if st.button('Summarize'):
-    if paper_input != "Select..." and style_input != "Select..." and length_input != "Select...":
-        chain = template | model
-        result = chain.invoke({
+     chain = template | model
+     result = chain.invoke({
             'paper_input': paper_input,
             'style_input': style_input,
             'length_input': length_input
         })
         st.write(result.content)
-    else:
-        st.warning("Please make selections for all options before summarizing.")
+    
